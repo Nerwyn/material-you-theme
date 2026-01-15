@@ -41,7 +41,7 @@ To fully utilize this theme, you should install the companion JavaScript module 
 
 I recommend using [Google Sans Flex](https://fonts.google.com/specimen/Google+Sans+Flex) font with this theme. It is the open source version of Google's Google/Product Sans fonts, which were previously not available for publc use. If not installed the theme has a priority list of other Material Design fonts like [Figtree](https://fonts.google.com/specimen/Figtree), [Roboto Flex](https://fonts.google.com/specimen/Roboto+Flex), and [Roboto](https://fonts.google.com/specimen/Roboto), which will be used instead.
 
-1. Navigate to a dashboard and then click `🖉 Edit dashboard` > `⋮ Open dashboard menu` > `Manage resources`.
+1. Navigate to a dashboard and then click `✎ Edit dashboard` > `⋮ Open dashboard menu` > `Manage resources`.
 2. Click `+ Add Resource`.
 3. In the `URL` field enter the url https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap.
 4. Select `Resource Type` `Stylesheet`.
@@ -50,7 +50,7 @@ I recommend using [Google Sans Flex](https://fonts.google.com/specimen/Google+Sa
 
 ## (Alternative/Optional) Build Your Own Theme
 
-You can create more customizable albeit static color themes using [Material Theme Builder](https://material-foundation.github.io/material-theme-builder/).
+You can create more customizable albeit static color themes using [Material Theme Builder](https://material-foundation.github.io/material-theme-builder/). Themes created using this tool use the same material design tokens that this theme does.
 
 
 1. Navigate to [Material Theme Builder](https://material-foundation.github.io/material-theme-builder/).
@@ -108,10 +108,25 @@ Requires [Material You Utilities](https://github.com/Nerwyn/material-you-utiliti
 
 ## Similar Projects and Credits
 
+### [Material Design 3](https://m3.material.io/) and [Material Color Utilities](https://github.com/material-foundation/material-color-utilities)
+
+This theme revolves around Material Design 3 and the tooling that its contributors have made available, especially Material Color Utilities and the Material Design 3 specification.
+
+### [Material Symbols](https://github.com/beecho01/material-symbols)
+
+Check out Material Symbols to use updated material icons like shown in the screenshots!
+
 ### [Material Home Components](https://github.com/giovannilamarmora/lovelace-material-components)
 
-This module is a library of Google Home style Home Assistant frontend components that uses this theme's Material Design tokens. Use it to make your Home Assistant frontend look even more like a Material Design app as shown in the screenshots!
+This module is a library of Google Home style Home Assistant frontend components that uses this themes Material Design tokens. Use it to make your Home Assistant frontend look even more like a Material Design app as shown in the screenshots!
 
+### [Custom Card Features](https://github.com/Nerwyn/custom-card-features)
+
+This is my general web components project for Home Assistant. With it you can create customizable card features, such as buttons, selectors, sliders, and toggles, as sub-elements of cards or as standalone cards themselves. Most custom features have Material Design appearance options which use the same style tokens as this theme and will follow theme colors.
+
+### [Music Assistant Player Card](https://github.com/droans/mass-player-card)
+
+This card can be used to control you Music Assistant server with Material Expressive colors and components!
 
 ### [Bubble Card](https://github.com/Clooos/Bubble-Card)
 
@@ -160,11 +175,3 @@ cards:
         justify-content: center;
       }
 ```
-
-### [Material Symbols](https://github.com/beecho01/material-symbols)
-
-Check out Material Symbols to use updated material icons like shown in the screenshots!
-
-### [Material Design 3](https://m3.material.io/) and [Material Color Utilities](https://github.com/material-foundation/material-color-utilities)
-
-This theme revolves around Material Design 3 and the tooling that its contributors have made available, especially Material Color Utilities and the Material Design 3 specification.
