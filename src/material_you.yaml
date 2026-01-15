@@ -540,6 +540,7 @@ Material You:
 
   wa-color-overlay-modal: rgba(from var(--md-sys-color-scrim) r g b / 0.32)
   mdc-dialog-scrim-color: rgba(from var(--md-sys-color-scrim) r g b / 0.32)
+  ha-dialog-scrim-backdrop-filter: none
   dialog-content-overflow: hidden auto
 
   md-dialog-container-color: var(--md-sys-color-surface-container-high)
@@ -688,6 +689,28 @@ Material You:
   vertical-stack-card-margin: 4px 0px
   ha-view-sections-narrow-column-gap: 18px
 
+  # Box shadows
+  ha-box-shadow-s: var(--md-sys-elevation-level1)
+  ha-box-shadow-m: var(--md-sys-elevation-level2)
+  ha-box-shadow-l: var(--md-sys-elevation-level3)
+  wa-shadow-s: var(--md-sys-elevation-level1)
+  wa-shadow-m: var(--md-sys-elevation-level2)
+  wa-shadow-l: var(--md-sys-elevation-level3)
+  ha-color-shadow-light: var(--md-sys-color-shadow)
+  ha-color-shadow-dark: var(--md-sys-color-shadow)
+
+  # Focus rings
+  wa-focus-ring: solid 3px var(--md-sys-color-secondary)
+
+  # Surfaces
+  ha-color-surface-default: var(--md-sys-color-surface)
+  ha-color-on-surface-default: var(--md-sys-color-on-surface)
+
+  # Borders
+  ha-color-border-neutral-quiet: var(--md-sys-color-outline-variant)
+  ha-color-border-neutral-normal: var(--md-sys-color-outline-variant)
+  ha-color-border-neutral-loud: var(--md-sys-color-outline-variant)
+
   # Toolbar
   header-height: 64px
   footer-height: 64px
@@ -717,7 +740,6 @@ Material You:
 
   ha-font-family-body: var(--font-family)
   ha-font-family-heading: var(--font-family)
-  ha-font-family-code: var(--font-family)
   ha-font-family-longform: var(--font-family)
 
   # Text
