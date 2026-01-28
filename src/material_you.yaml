@@ -503,12 +503,9 @@ Material You:
   ha-card-border: none
   ha-config-card-border-radius: var(--md-sys-shape-corner-large)
 
-  # Background and header
+  # Background
   lovelace-background: var(--md-sys-color-surface)
   view-background: var(--md-sys-color-surface)
-  app-header-background-color: var(--md-sys-color-surface)
-  margin-title-ltr: 0
-  margin-title-rtl: 0
 
   # Sidebar
   sidebar-selected-text-color: var(--md-sys-color-secondary)
@@ -524,9 +521,13 @@ Material You:
   md-list-item-hover-state-layer-opacity: 0.08
   md-list-item-pressed-state-layer-opacity: 0.1
 
-  # Toolbar
+  # Header
+  app-header-background-color: var(--md-sys-color-surface)
   app-header-text-color: var(--md-sys-color-on-surface)
   app-header-edit-text-color: var(--md-sys-color-on-surface-variant)
+  app-header-border-bottom: none
+  margin-title-ltr: 0
+  margin-title-rtl: 0
 
   # Dialogs
   ha-dialog-surface-background: var(--md-sys-color-surface-container-high)
