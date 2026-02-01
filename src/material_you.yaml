@@ -600,15 +600,17 @@ Material You:
   # Radio buttons
   mdc-radio-unchecked-color: var(--md-sys-color-on-surface-variant)
 
+  # Tooltips
+  ha-tooltip-arrow-size: 0px
+  ha-tooltip-border-radius: var(--md-sys-shape-corner-extra-small)
+  ha-tooltip-font-family: var(--font-family)
+  ha-tooltip-font-size: var(--md-sys-typescale-body-small-size)
+  ha-tooltip-font-weight: var(--md-sys-typescale-body-small-weight)
+  ha-tooltip-line-height: var(--md-sys-typescale-body-small-line-height)
+
   # Sliders
   ha-slider-track-size: 24px
   ha-slider-thumb-negative-color: var(--md-sys-color-on-surface-container-low)
-  ha-tooltip-arrow-size: 0px
-  ha-tooltip-border-radius: var(--md-sys-shape-corner-full)
-  ha-tooltip-font-family: var(--font-family)
-  ha-tooltip-font-size: var(--md-sys-typescale-label-large-size)
-  ha-tooltip-font-weight: var(--md-sys-typescale-label-large-weight)
-  ha-tooltip-line-height: var(--md-sys-typescale-label-large-line-height)
 
   # Buttons
   button-height: 40px

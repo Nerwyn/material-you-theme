@@ -496,14 +496,14 @@ Material You:
   mdc-checkbox-ink-color: var(--checkbox-checked-icon-color)
   mdc-checkbox-unchecked-color: var(--checkbox-unchecked-border-color)
   mdc-radio-unchecked-color: var(--md-sys-color-on-surface-variant)
+  ha-tooltip-arrow-size: 0px
+  ha-tooltip-border-radius: var(--md-sys-shape-corner-extra-small)
+  ha-tooltip-font-family: var(--font-family)
+  ha-tooltip-font-size: var(--md-sys-typescale-body-small-size)
+  ha-tooltip-font-weight: var(--md-sys-typescale-body-small-weight)
+  ha-tooltip-line-height: var(--md-sys-typescale-body-small-line-height)
   ha-slider-track-size: 24px
   ha-slider-thumb-negative-color: var(--md-sys-color-on-surface-container-low)
-  ha-tooltip-arrow-size: 0px
-  ha-tooltip-border-radius: var(--md-sys-shape-corner-full)
-  ha-tooltip-font-family: var(--font-family)
-  ha-tooltip-font-size: var(--md-sys-typescale-label-large-size)
-  ha-tooltip-font-weight: var(--md-sys-typescale-label-large-weight)
-  ha-tooltip-line-height: var(--md-sys-typescale-label-large-line-height)
   button-height: 40px
   ha-button-height: 40px
   ha-button-border-radius: calc(var(--ha-button-height))
