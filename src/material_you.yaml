@@ -501,6 +501,7 @@ Material You:
   ha-card-border-width: 0px
   ha-card-border-style: none
   ha-card-border: none
+  ha-card-backdrop-filter: none
   ha-config-card-border-radius: var(--md-sys-shape-corner-large)
 
   # Background
@@ -555,6 +556,9 @@ Material You:
   md-dialog-supporting-text-weight: var(--md-sys-typescale-body-medium-weight)
   md-dialog-supporting-text-line-height: var(--md-sys-typescale-body-medium-line-height)
   md-dialog-supporting-text-tracking: var(--md-sys-typescale-body-medium-tracking)
+
+  # Bottom sheets
+  ha-bottom-sheet-handle-color: var(--md-sys-color-on-surface-variant)
 
   # Legacy mdc colors
   mdc-theme-primary: var(--md-sys-color-primary)
