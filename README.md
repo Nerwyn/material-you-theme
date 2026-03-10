@@ -106,7 +106,7 @@ Requires [Material You Utilities](https://github.com/Nerwyn/material-you-utiliti
 3. In the `URL` field enter the path to the resource file.
     - Like `/local/my-md3-theme.css`
 
-## Similar Projects and Credits
+## Credits and Related Projects
 
 ### [Material Design 3](https://m3.material.io/) and [Material Color Utilities](https://github.com/material-foundation/material-color-utilities)
 
@@ -131,3 +131,7 @@ This card can be used to control you Music Assistant server with Material Expres
 ### [Bubble Card](https://github.com/Clooos/Bubble-Card)
 
 This theme includes variables to style Bubble Card elements using Material You colors and shapes.
+
+### [Xiaomi Map Card](https://github.com/PiotrMachowski/lovelace-xiaomi-vacuum-map-card)
+
+This theme includes variables to style Xiaomi Map Card using Material You colors.
