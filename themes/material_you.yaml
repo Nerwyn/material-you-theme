@@ -656,4 +656,12 @@ Material You:
   bubble-sub-button-light-background-color: var(--md-sys-color-secondary-container)
   bubble-main-background-color: var(--md-sys-color-surface-container-highest)
   bubble-pop-up-border-radius: var(--md-sys-shape-corner-extra-large)
+  bubble-select-list-border-radius: var(--md-sys-shape-corner-extra-small)
+  map-card-primary-color: var(--md-sys-color-primary-container)
+  map-card-primary-text-color: var(--md-sys-color-on-primary-container)
+  map-card-secondary-color: var(--md-sys-color-secondary-container)
+  map-card-secondary-text-color: var(--md-sys-color-on-secondary-container)
+  map-card-tertiary-color: var(--md-sys-color-tertiary-container)
+  map-card-tertiary-text-color: var(--md-sys-color-on-tertiary-container)
+  map-card-zoomer-background: var(--md-sys-color-surface-container-highest)
   version: 5.0.9
