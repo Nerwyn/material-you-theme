@@ -130,48 +130,4 @@ This card can be used to control you Music Assistant server with Material Expres
 
 ### [Bubble Card](https://github.com/Clooos/Bubble-Card)
 
-This theme includes variables to style Bubble Card elements using Material You colors and shapes. Bubble card pop-ups are equivalent to [bottom sheets](https://m3.material.io/components/bottom-sheets/overview) and have their background color and border radius set to better match its specification.
-
-Here is the basic configuration I use to make Bubble Card pop-ups look more like modal bottom sheets.
-
-```yaml
-type: vertical-stack
-cards:
-  - type: custom:bubble-card
-    card_type: pop-up
-    hash: '#your-hash-here'
-    width_desktop: 90vw # This should be 640px per the specification, but I prefer near full width dialogs on desktop
-    close_by_clicking_outside: true
-    show_header: false
-    styles: |-
-      #root {
-        height: unset !important;
-        max-height: 100% !important;
-        transition: transform var(--md-sys-motion-expressive-spatial-default) !important;
-      }
-      .bubble-pop-up-container {
-        padding-bottom: 64px !important;
-
-        /* Removing side padding if using ha-card elements instead of Bubble Card elements */
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-      }
-  - type: custom:bubble-card
-    card_type: separator # A modified separator to mimic the bottom sheet drag handle
-    styles: |-
-      .bubble-icon,
-      .bubble-name {
-        display: none;
-      }
-      .bubble-line {
-        margin-right: 0;
-        height: 4px;
-        max-width: 32px;
-        opacity: 1;
-        background: var(--md-sys-color-on-surface-variant);
-      }
-      .bubble-separator {
-        height: min-content !important;
-        justify-content: center;
-      }
-```
+This theme includes variables to style Bubble Card elements using Material You colors and shapes.
