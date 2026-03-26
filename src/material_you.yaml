@@ -764,6 +764,9 @@ Material You:
   mdc-theme-text-icon-on-background: var(--md-sys-color-on-surface-variant)
 
   # Text Fields and Dropdowns
+  ha-color-form-background: var(--md-sys-color-surface-container-highest)
+  ha-color-form-background-hover: rgba(from var(--md-sys-color-on-surface) r g b / 0.08)
+  
   input-background-color: var(--md-sys-color-surface-container-highest)
   input-fill-color: var(--md-sys-color-surface-container-highest)
   input-ink-color: var(--md-sys-color-on-surface)
