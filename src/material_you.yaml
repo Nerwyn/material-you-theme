@@ -506,7 +506,7 @@ Material You:
 
   # Background
   lovelace-background: var(--md-sys-color-surface)
-  view-background: var(--md-sys-color-surface)
+  ha-section-border-radius: var(--md-sys-shape-corner-medium)
 
   # Sidebar
   sidebar-selected-text-color: var(--md-sys-color-secondary)

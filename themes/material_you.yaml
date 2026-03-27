@@ -424,7 +424,7 @@ Material You:
   ha-card-backdrop-filter: none
   ha-config-card-border-radius: var(--md-sys-shape-corner-large)
   lovelace-background: var(--md-sys-color-surface)
-  view-background: var(--md-sys-color-surface)
+  ha-section-border-radius: var(--md-sys-shape-corner-medium)
   sidebar-selected-text-color: var(--md-sys-color-secondary)
   sidebar-selected-icon-color: var(--md-sys-color-on-secondary-container)
   sidebar-selected-background: var(--md-sys-color-secondary-container)
