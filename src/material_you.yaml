@@ -571,19 +571,21 @@ Material You:
   # Switches
   ha-switch-size: 32px
   ha-switch-width: 52px
+  ha-switch-thumb-size: 24px
   ha-switch-checked-thumb-background-color: var(--md-sys-color-on-primary)
   ha-switch-thumb-background-color: var(--md-sys-color-outline)
-  ha-switch-thumb-size: 24px
   ha-switch-checked-thumb-border-color: transparent
   ha-switch-thumb-border-color: transparent
-  ha-switch-checked-border-color: var(--md-sys-color-primary)
-  ha-switch-border-color: var(--md-sys-color-outline)
+  ha-switch-thumb-box-shadow: none
   ha-switch-checked-background-color: var(--md-sys-color-primary)
   ha-switch-background-color: var(--md-sys-color-surface-container-highest)
+  ha-switch-checked-border-color: var(--md-sys-color-primary)
+  ha-switch-border-color: var(--md-sys-color-outline)
   ha-switch-checked-icon-color: var(--md-sys-color-on-primary-container)
   ha-switch-icon-color: var(--md-sys-color-surface-container-highest)
   ha-switch-checked-button-state-layer: var(--md-sys-color-primary-container)
   ha-switch-button-state-layer: var(--md-sys-color-on-surface-variant)
+  ha-switch-checked-track-state-layer: var(--md-sys-color-primary)
   ha-switch-track-state-layer: var(--md-sys-color-on-surface)
 
   # Checkboxes
