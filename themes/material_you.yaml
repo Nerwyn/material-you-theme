@@ -472,24 +472,22 @@ Material You:
   mdc-theme-on-surface: var(--md-sys-color-on-surface)
   mdc-theme-error: var(--md-sys-color-error)
   md-divider-color: var(--md-sys-color-outline-variant)
-  md-switch-checked-button-color: var(--md-sys-color-on-primary)
-  md-switch-unchecked-button-color: var(--md-sys-color-outline)
-  md-switch-checked-track-color: var(--md-sys-color-primary)
-  md-switch-unchecked-track-color: var(--md-sys-color-surface-container-highest)
-  md-switch-checked-icon-color: var(--md-sys-color-on-primary-container)
-  md-switch-unchecked-icon-color: var(--md-sys-color-surface-container-highest)
-  md-switch-checked-button-state-layer: var(--md-sys-color-primary-container)
-  md-switch-unchecked-button-state-layer: var(--md-sys-color-on-surface-variant)
-  md-switch-unchecked-track-state-layer: var(--md-sys-color-on-surface)
-  switch-checked-button-color: var(--md-switch-checked-button-color)
-  switch-unchecked-button-color: var(--md-switch-unchecked-button-color)
-  switch-checked-track-color: var(--md-switch-checked-track-color)
-  switch-unchecked-track-color: var(--md-switch-unchecked-track-color)
-  switch-checked-icon-color: var(--md-switch-checked-icon-color)
-  switch-unchecked-icon-color: var(--md-switch-unchecked-icon-color)
-  switch-checked-button-state-layer: var(--md-switch-checked-button-state-layer)
-  switch-unchecked-button-state-layer: var(--md-switch-unchecked-button-state-layer)
-  switch-unchecked-track-state-layer: var(--md-switch-unchecked-track-state-layer)
+  ha-switch-size: 32px
+  ha-switch-width: 52px
+  ha-switch-checked-thumb-background-color: var(--md-sys-color-on-primary)
+  ha-switch-thumb-background-color: var(--md-sys-color-outline)
+  ha-switch-thumb-size: 24px
+  ha-switch-checked-thumb-border-color: transparent
+  ha-switch-thumb-border-color: transparent
+  ha-switch-checked-border-color: var(--md-sys-color-primary)
+  ha-switch-border-color: var(--md-sys-color-outline)
+  ha-switch-checked-background-color: var(--md-sys-color-primary)
+  ha-switch-background-color: var(--md-sys-color-surface-container-highest)
+  ha-switch-checked-icon-color: var(--md-sys-color-on-primary-container)
+  ha-switch-icon-color: var(--md-sys-color-surface-container-highest)
+  ha-switch-checked-button-state-layer: var(--md-sys-color-primary-container)
+  ha-switch-button-state-layer: var(--md-sys-color-on-surface-variant)
+  ha-switch-track-state-layer: var(--md-sys-color-on-surface)
   checkbox-checked-border-color: var(--md-sys-color-primary)
   checkbox-checked-icon-color: var(--md-sys-color-on-primary)
   checkbox-unchecked-border-color: var(--md-sys-color-on-surface-variant)
@@ -666,4 +664,4 @@ Material You:
   map-card-tertiary-color: var(--md-sys-color-tertiary-container)
   map-card-tertiary-text-color: var(--md-sys-color-on-tertiary-container)
   map-card-zoomer-background: var(--md-sys-color-surface-container-highest)
-  version: 5.0.10
+  version: 5.0.11

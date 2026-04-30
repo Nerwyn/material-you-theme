@@ -1,26 +1,24 @@
 Material You:
   # Elevation - box-shadow
   md-sys-elevation-level0: none
-  md-sys-elevation-level1:
-    rgba(from var(--md-sys-color-shadow) r g b / 0.2) 0px 2px 1px -1px,
-    rgba(from var(--md-sys-color-shadow) r g b / 0.14) 0px 1px 1px 0px,
-    rgba(from var(--md-sys-color-shadow) r g b / 0.12) 0px 1px 3px 0px
-  md-sys-elevation-level2:
-    rgba(from var(--md-sys-color-shadow) r g b / 0.2) 0px 3px 3px -2px,
-    rgba(from var(--md-sys-color-shadow) r g b / 0.14) 0px 3px 4px 0px,
-    rgba(from var(--md-sys-color-shadow) r g b / 0.12) 0px 1px 8px 0px
-  md-sys-elevation-level3:
-    rgba(from var(--md-sys-color-shadow) r g b / 0.2) 0px 3px 5px -1px,
-    rgba(from var(--md-sys-color-shadow) r g b / 0.14) 0px 6px 10px 0px,
-    rgba(from var(--md-sys-color-shadow) r g b / 0.12) 0px 1px 18px 0px
-  md-sys-elevation-level4:
-    rgba(from var(--md-sys-color-shadow) r g b / 0.2) 0px 5px 5px -3px,
-    rgba(from var(--md-sys-color-shadow) r g b / 0.14) 0px 8px 10px 1px,
-    rgba(from var(--md-sys-color-shadow) r g b / 0.12) 0px 3px 14px 2px
-  md-sys-elevation-level5:
-    rgba(from var(--md-sys-color-shadow) r g b / 0.2) 0px 7px 8px -4px,
-    rgba(from var(--md-sys-color-shadow) r g b / 0.14) 0px 12px 17px 2px,
-    rgba(from var(--md-sys-color-shadow) r g b / 0.12) 0px 5px 22px 4px
+  md-sys-elevation-level1: rgba(from var(--md-sys-color-shadow) r g b / 0.2) 0px
+    2px 1px -1px, rgba(from var(--md-sys-color-shadow) r g b / 0.14) 0px 1px 1px
+    0px, rgba(from var(--md-sys-color-shadow) r g b / 0.12) 0px 1px 3px 0px
+  md-sys-elevation-level2: rgba(from var(--md-sys-color-shadow) r g b / 0.2) 0px
+    3px 3px -2px, rgba(from var(--md-sys-color-shadow) r g b / 0.14) 0px 3px 4px
+    0px, rgba(from var(--md-sys-color-shadow) r g b / 0.12) 0px 1px 8px 0px
+  md-sys-elevation-level3: rgba(from var(--md-sys-color-shadow) r g b / 0.2) 0px
+    3px 5px -1px, rgba(from var(--md-sys-color-shadow) r g b / 0.14) 0px 6px
+    10px 0px, rgba(from var(--md-sys-color-shadow) r g b / 0.12) 0px 1px 18px
+    0px
+  md-sys-elevation-level4: rgba(from var(--md-sys-color-shadow) r g b / 0.2) 0px
+    5px 5px -3px, rgba(from var(--md-sys-color-shadow) r g b / 0.14) 0px 8px
+    10px 1px, rgba(from var(--md-sys-color-shadow) r g b / 0.12) 0px 3px 14px
+    2px
+  md-sys-elevation-level5: rgba(from var(--md-sys-color-shadow) r g b / 0.2) 0px
+    7px 8px -4px, rgba(from var(--md-sys-color-shadow) r g b / 0.14) 0px 12px
+    17px 2px, rgba(from var(--md-sys-color-shadow) r g b / 0.12) 0px 5px 22px
+    4px
 
   # Motion physics system - transition duration and timing-function
   md-sys-motion-expressive-spatial-fast: 350ms cubic-bezier(0.42, 1.67, 0.21, 0.90)
@@ -571,25 +569,22 @@ Material You:
   md-divider-color: var(--md-sys-color-outline-variant)
 
   # Switches
-  md-switch-checked-button-color: var(--md-sys-color-on-primary)
-  md-switch-unchecked-button-color: var(--md-sys-color-outline)
-  md-switch-checked-track-color: var(--md-sys-color-primary)
-  md-switch-unchecked-track-color: var(--md-sys-color-surface-container-highest)
-  md-switch-checked-icon-color: var(--md-sys-color-on-primary-container)
-  md-switch-unchecked-icon-color: var(--md-sys-color-surface-container-highest)
-  md-switch-checked-button-state-layer: var(--md-sys-color-primary-container)
-  md-switch-unchecked-button-state-layer: var(--md-sys-color-on-surface-variant)
-  md-switch-unchecked-track-state-layer: var(--md-sys-color-on-surface)
-
-  switch-checked-button-color: var(--md-switch-checked-button-color)
-  switch-unchecked-button-color: var(--md-switch-unchecked-button-color)
-  switch-checked-track-color: var(--md-switch-checked-track-color)
-  switch-unchecked-track-color: var(--md-switch-unchecked-track-color)
-  switch-checked-icon-color: var(--md-switch-checked-icon-color)
-  switch-unchecked-icon-color: var(--md-switch-unchecked-icon-color)
-  switch-checked-button-state-layer: var(--md-switch-checked-button-state-layer)
-  switch-unchecked-button-state-layer: var(--md-switch-unchecked-button-state-layer)
-  switch-unchecked-track-state-layer: var(--md-switch-unchecked-track-state-layer)
+  ha-switch-size: 32px
+  ha-switch-width: 52px
+  ha-switch-checked-thumb-background-color: var(--md-sys-color-on-primary)
+  ha-switch-thumb-background-color: var(--md-sys-color-outline)
+  ha-switch-thumb-size: 24px
+  ha-switch-checked-thumb-border-color: transparent
+  ha-switch-thumb-border-color: transparent
+  ha-switch-checked-border-color: var(--md-sys-color-primary)
+  ha-switch-border-color: var(--md-sys-color-outline)
+  ha-switch-checked-background-color: var(--md-sys-color-primary)
+  ha-switch-background-color: var(--md-sys-color-surface-container-highest)
+  ha-switch-checked-icon-color: var(--md-sys-color-on-primary-container)
+  ha-switch-icon-color: var(--md-sys-color-surface-container-highest)
+  ha-switch-checked-button-state-layer: var(--md-sys-color-primary-container)
+  ha-switch-button-state-layer: var(--md-sys-color-on-surface-variant)
+  ha-switch-track-state-layer: var(--md-sys-color-on-surface)
 
   # Checkboxes
   checkbox-checked-border-color: var(--md-sys-color-primary)
@@ -727,7 +722,7 @@ Material You:
   navbar-background: var(--md-sys-color-surface-container)
 
   # Font
-  font-family: '"Google Sans Flex", Figtree, "Roboto Flex", Roboto, Noto, sans-serif'
+  font-family: "\"Google Sans Flex\", Figtree, \"Roboto Flex\", Roboto, Noto, sans-serif"
   primary-font-family: var(--font-family)
   ha-card-header-font-family: var(--font-family)
   mdc-typography-font-family: var(--font-family)
@@ -766,7 +761,7 @@ Material You:
   # Text Fields and Dropdowns
   ha-color-form-background: var(--md-sys-color-surface-container-highest)
   ha-color-form-background-hover: rgba(from var(--md-sys-color-on-surface) r g b / 0.08)
-  
+
   input-background-color: var(--md-sys-color-surface-container-highest)
   input-fill-color: var(--md-sys-color-surface-container-highest)
   input-ink-color: var(--md-sys-color-on-surface)
