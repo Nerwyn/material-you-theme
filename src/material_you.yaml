@@ -589,6 +589,17 @@ Material You:
   ha-switch-checked-track-state-layer: var(--md-sys-color-primary)
 
   # Checkboxes
+  ha-checkbox-size: 18px
+  ha-checkbox-border-color: var(--md-sys-color-on-surface-variant)
+  ha-checkbox-border-color-hover: var(--md-sys-color-on-surface)
+  ha-checkbox-background-color: transparent
+  ha-checkbox-background-color-hover: rgba(from var(--md-sys-color-on-surface) r g b / 0.08)
+  ha-checkbox-checked-background-color: var(--md-sys-color-primary)
+  ha-checkbox-checked-background-color-hover: hsl(from var(--md-sys-color-primary) h s calc(l + 4))
+  ha-checkbox-checked-icon-color: var(--md-sys-color-on-primary)
+  ha-checkbox-border-radius: 2px
+  ha-checkbox-border-width: 2px
+
   checkbox-checked-border-color: var(--md-sys-color-primary)
   checkbox-checked-icon-color: var(--md-sys-color-on-primary)
   checkbox-unchecked-border-color: var(--md-sys-color-on-surface-variant)
@@ -724,7 +735,7 @@ Material You:
   navbar-background: var(--md-sys-color-surface-container)
 
   # Font
-  font-family: "\"Google Sans Flex\", Figtree, \"Roboto Flex\", Roboto, Noto, sans-serif"
+  font-family: '"Google Sans Flex", Figtree, "Roboto Flex", Roboto, Noto, sans-serif'
   primary-font-family: var(--font-family)
   ha-card-header-font-family: var(--font-family)
   mdc-typography-font-family: var(--font-family)
