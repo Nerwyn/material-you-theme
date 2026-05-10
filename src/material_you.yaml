@@ -600,15 +600,6 @@ Material You:
   ha-checkbox-border-radius: 2px
   ha-checkbox-border-width: 2px
 
-  checkbox-checked-border-color: var(--md-sys-color-primary)
-  checkbox-checked-icon-color: var(--md-sys-color-on-primary)
-  checkbox-unchecked-border-color: var(--md-sys-color-on-surface-variant)
-  checkbox-unchecked-icon-color: var(--md-sys-color-on-surface)
-
-  mdc-checkbox-checked-color: var(--checkbox-checked-border-color)
-  mdc-checkbox-ink-color: var(--checkbox-checked-icon-color)
-  mdc-checkbox-unchecked-color: var(--checkbox-unchecked-border-color)
-
   # Radio buttons
   mdc-radio-unchecked-color: var(--md-sys-color-on-surface-variant)
 
@@ -623,6 +614,13 @@ Material You:
   # Sliders
   ha-slider-track-size: 24px
   ha-slider-thumb-negative-color: var(--md-sys-color-on-surface-container-low)
+
+  # Progress bars
+  ha-progress-bar-indicator-color: var(--md-sys-color-primary)
+  ha-progress-bar-indicator-background: var(--md-sys-color-secondary-container)
+  ha-progress-bar-track-color: var(--md-sys-color-secondary-container)
+  ha-progress-bar-track-height: 4px
+  ha-progress-bar-border-radius: 4px
 
   # Buttons
   button-height: 40px
