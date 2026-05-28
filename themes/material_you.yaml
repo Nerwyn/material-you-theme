@@ -507,6 +507,7 @@ Material You:
   ha-radio-option-background-color-hover: transparent
   ha-radio-option-checked-icon-color: var(--md-sys-color-primary)
   ha-radio-option-active-color: var(--md-sys-color-primary)
+  ha-radio-option-checked-icon-scale: 0.6
   ha-tooltip-arrow-size: 0px
   ha-tooltip-border-radius: var(--md-sys-shape-corner-extra-small)
   ha-tooltip-font-family: var(--font-family)
