@@ -601,7 +601,13 @@ Material You:
   ha-checkbox-border-width: 2px
 
   # Radio buttons
-  mdc-radio-unchecked-color: var(--md-sys-color-on-surface-variant)
+  ha-radio-option-border-color: var(--md-sys-color-on-surface-variant)
+  ha-radio-option-border-color-hover: var(--md-sys-color-on-surface)
+  ha-radio-option-checked-background-color: transparent
+  ha-radio-option-background-color: transparent
+  ha-radio-option-background-color-hover: transparent
+  ha-radio-option-checked-icon-color: var(--md-sys-color-primary)
+  ha-radio-option-active-color: var(--md-sys-color-primary)
 
   # Tooltips
   ha-tooltip-arrow-size: 0px

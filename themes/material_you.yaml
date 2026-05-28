@@ -500,7 +500,13 @@ Material You:
   ha-checkbox-checked-icon-color: var(--md-sys-color-on-primary)
   ha-checkbox-border-radius: 2px
   ha-checkbox-border-width: 2px
-  mdc-radio-unchecked-color: var(--md-sys-color-on-surface-variant)
+  ha-radio-option-border-color: var(--md-sys-color-on-surface-variant)
+  ha-radio-option-border-color-hover: var(--md-sys-color-on-surface)
+  ha-radio-option-checked-background-color: transparent
+  ha-radio-option-background-color: transparent
+  ha-radio-option-background-color-hover: transparent
+  ha-radio-option-checked-icon-color: var(--md-sys-color-primary)
+  ha-radio-option-active-color: var(--md-sys-color-primary)
   ha-tooltip-arrow-size: 0px
   ha-tooltip-border-radius: var(--md-sys-shape-corner-extra-small)
   ha-tooltip-font-family: var(--font-family)
@@ -675,4 +681,4 @@ Material You:
   map-card-tertiary-color: var(--md-sys-color-tertiary-container)
   map-card-tertiary-text-color: var(--md-sys-color-on-tertiary-container)
   map-card-zoomer-background: var(--md-sys-color-surface-container-highest)
-  version: 5.0.12
+  version: 5.0.13
