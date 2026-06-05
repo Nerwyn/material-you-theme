@@ -521,9 +521,7 @@ Material You:
   ha-progress-bar-track-color: var(--md-sys-color-secondary-container)
   ha-progress-bar-track-height: 4px
   ha-progress-bar-border-radius: 4px
-  button-height: 40px
-  ha-button-height: 40px
-  ha-button-border-radius: calc(var(--ha-button-height))
+  ha-button-border-radius: 40px
   mdc-button-disabled-fill-color: rgba(from var(--md-sys-color-on-surface) r g b / 0.12)
   mdc-button-disabled-ink-color: rgba(from var(--md-sys-color-on-surface) r g b / 0.38)
   mdc-typography-button-font-size: var(--md-sys-typescale-label-large-size)
