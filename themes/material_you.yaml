@@ -514,8 +514,9 @@ Material You:
   ha-tooltip-font-size: var(--md-sys-typescale-body-small-size)
   ha-tooltip-font-weight: var(--md-sys-typescale-body-small-weight)
   ha-tooltip-line-height: var(--md-sys-typescale-body-small-line-height)
-  ha-slider-track-size: 24px
+  ha-slider-track-size: 8px
   ha-slider-thumb-negative-color: var(--md-sys-color-on-surface-container-low)
+  ha-slider-track-color: var(--md-sys-color-secondary-container)
   ha-progress-bar-indicator-color: var(--md-sys-color-primary)
   ha-progress-bar-indicator-background: var(--md-sys-color-secondary-container)
   ha-progress-bar-track-color: var(--md-sys-color-secondary-container)

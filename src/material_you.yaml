@@ -619,8 +619,9 @@ Material You:
   ha-tooltip-line-height: var(--md-sys-typescale-body-small-line-height)
 
   # Sliders
-  ha-slider-track-size: 24px
+  ha-slider-track-size: 8px
   ha-slider-thumb-negative-color: var(--md-sys-color-on-surface-container-low)
+  ha-slider-track-color: var(--md-sys-color-secondary-container)
 
   # Progress bars
   ha-progress-bar-indicator-color: var(--md-sys-color-primary)
