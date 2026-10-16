@@ -132,6 +132,10 @@ This thermostat card was designed to pair with this theme, and gives you Nest-st
 
 This air purifier card was designed to pair with this theme, and gives you animated air purifier control along with access to configurable tiles.
 
+### [Material Plant Card](https://github.com/lageorgem/ha-material-plant-card)
+
+This plant card was designed to pair with this theme, and gives you an alternative way to view plant information provided by [Plant Monitor for Home Assistant](https://github.com/Olen/homeassistant-plant).
+
 ### [Bubble Card](https://github.com/Clooos/Bubble-Card)
 
 This theme includes variables to style Bubble Card elements using Material You colors and shapes, while respecting Bubble Card's unique design decisions.
