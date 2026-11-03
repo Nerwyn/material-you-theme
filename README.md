@@ -1,13 +1,13 @@
 [![GitHub Release](https://img.shields.io/github/release/Nerwyn/material-you-theme.svg?style=for-the-badge)](https://github.com/nerwyn/material-you-theme/releases)
 [![License](https://img.shields.io/github/license/Nerwyn/material-you-theme.svg?style=for-the-badge)](LICENSE)
-[![hacs_badge](https://img.shields.io/badge/HACS-Default-blue.svg?style=for-the-badge)](https://github.com/hacs/default)
+[![marketplace_badge](https://img.shields.io/badge/Marketplace-Default-blue.svg?style=for-the-badge)](https://github.com/hacs/default)
 [![Project Maintenance](https://img.shields.io/badge/maintainer-Nerwyn-blue.svg?style=for-the-badge)](https://github.com/Nerwyn)
 ![Github](https://img.shields.io/github/followers/Nerwyn.svg?style=for-the-badge)
 [![GitHub Activity](https://img.shields.io/github/last-commit/Nerwyn/material-you-theme?style=for-the-badge)](https://github.com/Nerwyn/material-you-theme/commits/main)
 [![Community Forum](https://img.shields.io/badge/community-forum-brightgreen.svg?style=for-the-badge)](https://community.home-assistant.io/t/material-you-theme-a-fully-featured-implementation-of-material-design-3-for-home-assistant/623242)
 [![Buy Me A Coffee](https://img.shields.io/badge/donate-☕buy_me_a_coffee-yellow.svg?style=for-the-badge)](https://www.buymeacoffee.com/nerwyn)
 
-[![My Home Assistant](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?repository=material-you-theme&owner=Nerwyn&category=Theme)
+[![My Home Assistant](https://my.home-assistant.io/badges/marketplace_repository.svg)](https://my.home-assistant.io/redirect/marketplace_repository/?repository=material-you-theme&owner=Nerwyn&category=Theme)
 
 # Material You Theme - A Fully Featured Implementation of Material Design 3 for Home Assistant
 
@@ -25,9 +25,9 @@ Almost all CSS custom properties in this theme have been redefined to use Materi
 
 ## Basic Theme Installation
 
-1. Navigate to HACS (install from [here](https://hacs.xyz/) if you do not have it yet).
+1. Navigate to Home Assistant Marketplace.
 2. Search for `Material You Theme`.
-3. Open this repository in HACS and click `Download`.
+3. Open this repository in the Marketplace and click `Download`.
 4. Refresh your browser or close and open your app.
 5. Navigate to your Profile, and select `Material You` or one of its variants.
 
@@ -35,7 +35,7 @@ Almost all CSS custom properties in this theme have been redefined to use Materi
 
 ## (Highly Recommended) Install the Companion JavaScript Module
 
-To fully utilize this theme, you should install the companion JavaScript module from [this repository](https://github.com/Nerwyn/material-you-utilities). In addition to installing it using HACS, you should add it to your `configuration.yaml` as described in its README.
+To fully utilize this theme, you should install the companion JavaScript module from [this repository](https://github.com/Nerwyn/material-you-utilities). In addition to installing it using the Marketplace, you should add it to your `configuration.yaml` as described in its README.
 
 ## (Optional) Google Sans Flex Font Installation
 
@@ -87,7 +87,7 @@ You can then use this file as a frontend resource or by using the CSS Path/URL o
 
 ### As a Frontend Resource
 
-**NOTE**: CSS files added this way will not apply to iframes such as the HACS and Add-ons pages. It will also not apply to some page backgrounds like the settings and developer tools pages, which are hardcoded to a default color, if the companion module is not installed. It will also be superceded by any color themes set using the companion module. Some users have reported that stylesheets do not work on their Home Assistant frontends due to a possible browser bug unrelated to this theme or its companion module.
+**NOTE**: CSS files added this way will not apply to some page backgrounds like the settings and developer tools pages, which are hardcoded to a default color, if the companion module is not installed. It will also be superceded by any color themes set using the companion module. Some users have reported that stylesheets do not work on their Home Assistant frontends due to a possible browser bug unrelated to this theme or its companion module.
 
 1. Navigate to a dashboard and then click `🖉 Edit dashboard` > `⋮ Open dashboard menu` > `Manage resources`.
 2. Click `+ Add Resource`.
@@ -99,7 +99,7 @@ You can then use this file as a frontend resource or by using the CSS Path/URL o
 
 ### Using the Companion Module
 
-Requires [Material You Utilities](https://github.com/Nerwyn/material-you-utilities). CSS files added this way will apply to iframes such as the HACS and Add-ons pages. It will also supercede any color themes set using the companion module.
+Requires [Material You Utilities](https://github.com/Nerwyn/material-you-utilities). CSS files added this way will supercede any color themes set using the companion module.
 
 1. Navigate to the user, device, or global settings that you want this file to apply to.
 2. Click on the `Other` tab in the configuration card.
